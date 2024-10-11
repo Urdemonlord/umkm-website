@@ -1,0 +1,56 @@
+.product-list {
+    padding: 20px;
+    background-color: #f8b400;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-list input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+  
+  .product-card {
+    background-color: white; /* Warna kartu putih */
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05); /* Animasi zoom saat hover */
+  }
+  
+  .product-image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .product-price {
+    font-weight: bold;
+    color: #4b3d3d; /* Warna harga coklat */
+  }
+  
+  button {
+    background-color: #8b5a2b; /* Warna coklat */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 10px; /* Memberikan jarak antara harga dan tombol */
+  }
+  
+  button:hover {
+    background-color: #7a4b2a; /* Warna tombol saat hover */
+  }

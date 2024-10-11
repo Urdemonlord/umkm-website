@@ -1,0 +1,37 @@
+.about-container {
+    padding: 20px;
+    background-color: #f9f5e9; /* Warna latar belakang krem */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Membatasi lebar konten */
+    margin: 20px auto; /* Pusatkan konten */
+  }
+  
+  .about-container h2 {
+    color: #4b3d3d; /* Warna judul coklat */
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .about-container p {
+    color: #333; /* Warna teks hitam */
+    line-height: 1.6; /* Tinggi garis yang lebih baik untuk keterbacaan */
+    margin-bottom: 15px;
+  }
+  
+  .about-container h3 {
+    color: #4b3d3d; /* Warna subjudul coklat */
+    margin-top: 20px; /* Jarak atas untuk subjudul */
+  }
+  
+  .about-container ul {
+    list-style-type: disc; /* Gaya bullet untuk daftar */
+    padding-left: 20px; /* Jarak dari kiri */
+    margin-bottom: 15px; /* Jarak bawah */
+  }
+  
+  .about-container li {
+    color: #333; /* Warna teks item daftar */
+    margin-bottom: 5px; /* Jarak bawah setiap item daftar */
+  }
+  

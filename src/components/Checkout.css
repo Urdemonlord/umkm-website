@@ -1,0 +1,72 @@
+.checkout {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .checkout h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .checkout form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .checkout label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .checkout input[type="text"],
+  .checkout select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .checkout input[type="text"]:focus,
+  .checkout select:focus {
+    border-color: #0C8848; /* Warna hijau yang telah ditentukan */
+    outline: none;
+  }
+  
+  .checkout button {
+    padding: 10px;
+    background-color: #0C8848; /* Warna hijau yang telah ditentukan */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .checkout button:hover {
+    background-color: #0a6a3a; /* Warna hijau yang lebih gelap saat hover */
+  }
+  
+  .checkout h3 {
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .checkout ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .checkout li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .checkout p {
+    font-weight: bold;
+  }
+  

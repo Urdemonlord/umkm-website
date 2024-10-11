@@ -1,0 +1,49 @@
+.reviews-container {
+    padding: 20px;
+    background-color: #f9f5e9; /* Warna latar belakang krem */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Membatasi lebar konten */
+    margin: 20px auto; /* Pusatkan konten */
+  }
+  
+  .reviews-container h2 {
+    color: #4b3d3d; /* Warna judul coklat */
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .reviews-container p {
+    color: #333; /* Warna teks hitam */
+    line-height: 1.6; /* Tinggi garis yang lebih baik untuk keterbacaan */
+    text-align: center; /* Rata tengah untuk teks */
+    margin-bottom: 15px;
+  }
+  
+  .reviews-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .review-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .review-card:hover {
+    transform: scale(1.05); /* Animasi zoom saat hover */
+  }
+  
+  .review-card h3 {
+    color: #4b3d3d; /* Warna nama reviewer coklat */
+    margin-bottom: 10px;
+  }
+  
+  .review-card p {
+    color: #333; /* Warna teks hitam */
+  }
+  
